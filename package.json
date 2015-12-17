@@ -1,0 +1,31 @@
+{
+  "name": "test-ng-app",
+  "version": "1.0.0",
+  "description": "Angular test app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stanislav-osipov/test-ng-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stanislav-osipov/test-ng-app/issues"
+  },
+  "homepage": "https://github.com/stanislav-osipov/test-ng-app#readme",
+  "devDependencies": {
+    "browser-sync": "^2.10.1",
+    "concat": "^1.0.0",
+    "del": "^2.2.0",
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-sass": "^2.1.1",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-webserver": "^0.9.1",
+    "vinyl-source-stream": "^1.1.0"
+  }
+}

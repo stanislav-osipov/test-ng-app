@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html ng-app="todo" data-framework="angularjs">
+<head>
+	<title> Todo app </title>
+	<meta encoding="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+	<link rel="stylesheet" href="style/app.css">
+</head>
+<body>
+	<div class="page" ng-controller="todoController as todos"> 
+		<div class="page__header">
+			<div class="header">
+
+			</div>
+		</div>
+
+		<div class="page__content">
+			<div class="content">
+
+				<div class="content__list">
+					<div class="list">
+						<div class="list__item" ng-repeat="todo in todos.todosList" >
+							{{todo.id}}
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+
+		<div class="page__footer">
+			<div class="footer">
+
+			</div>
+		</div>
+	</div>
+
+	<script src="js/libs.js"></script>
+	<script src="js/app.js"></script>
+</body>
+</html>
