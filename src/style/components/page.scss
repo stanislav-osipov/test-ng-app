@@ -1,19 +1,16 @@
-html, body {
-	height: 100%;
-	margin: 0;
-	padding: 0;
-}
-
 .page {
 	height: 100%;
 	background-color: #EEE;
+	overflow: hidden;
 
 	&__header {
 		height: 10%;
+		min-height: 50px;
 	}
 
 	&__content {
 		height: 80%;
+		min-height: 50px;
 	}
 
 	&__footer {
@@ -22,8 +19,50 @@ html, body {
 }
 
 .header {
-	background-color: #AAA;
+	background-color: #333;
 	height: 100%;
+	box-sizing: border-box;
+	border-style: solid;
+	border-color: #111;
+	border-width: 0 0 4px 0;
+	display: table;
+	width: 100%;
+	padding: 0 30px;
+	font-family: ProximaNovaCond, Arial, sans-serif; 
+	font-size: 30px;
+	font-weight: 700;
+	color: #FFF;
+
+	&__text {
+		display: table-cell;
+		vertical-align: middle;		
+	}
+
+	&__add-button {
+		display: table-cell;
+		vertical-align: middle;
+	}
+
+}
+
+.add-button {
+	margin: 0 0 0 auto;
+	background-color: #777;
+	border-style: solid;
+	border-color: #FFF;
+	border-radius: 20px;
+	border-width: 3px;
+	height: 30px;
+	width: 30px;
+	text-align: center;
+	line-height: 30px;	
+	cursor: pointer;
+	user-select: none;
+
+	&:active {
+		border-color: #333;
+		color: #333;	
+	}
 }
 
 .content {
@@ -32,21 +71,97 @@ html, body {
 
 	&__list {
 		height: 100%;
-		padding: 5%;
+		padding: 2% 5%;
 	}
 }
 
 .footer {
-	background-color: #AAA;
+	background-color: #333;
 	height: 100%;
+	box-sizing: border-box;
+	border-style: solid;
+	border-color: #111;
+	border-width: 4px 0 0 0;
 }
 
 .list {
 	height: 100%;
 
 	&__item {
-		height: 100px;
-		background-color: #CCC;
-		margin-bottom: 10px
+		color: #FFF;
+		height: 55px;
+		line-height: 55px;
+		background-color: #888;
+		border-style: solid;
+		border-color: #666;
+		border-width: 1px;
+		border-radius: 10px;
+		margin-bottom: 15px;
+		box-shadow: 0 0 10px rgba(0,0,0,0.5);
+
+		&:nth-child(odd) {
+			background-color: #666;	
+		}
+	}
+
+}
+
+.item {
+	box-sizing: border-box;
+	
+	&__text {
+		display: inline-block;
+		/*width: 60%;*/
+	}
+
+	&__checkbox {
+		width: 5%;
+		margin: 0 15px;
+		display: inline-block;
+		transform: scale(2);
+	}
+
+	&__buttons {
+		/*width: 25%;*/
+		display: inline-block;
+		text-align: right;
+		float: right;
+		margin-right: 3%;
+	}
+
+	&__button {
+		font-family: ProximaNovaCond, Arial, sans-serif; 
+		font-size: 30px;
+		font-weight: 700;
+		background-color: #777;
+		border-style: solid;
+		border-color: #FFF;
+		border-radius: 20px;
+		border-width: 3px;
+		height: 30px;
+		width: 30px;
+		text-align: center;
+		line-height: 25px;	
+		cursor: pointer;
+		user-select: none;
+		display: inline-block;
+
+		&:active {
+			border-color: #333;
+			color: #333;	
+		}
+
+		&--link {
+			text-decoration: none;
+
+			&:link {
+				color: #FFF;
+			}
+
+			&:visited {
+				color: #FFF;
+			}
+		}
+
 	}
 }

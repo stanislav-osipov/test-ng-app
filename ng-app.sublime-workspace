@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"bac",
+				"background-color"
+			],
+			[
+				"bor",
+				"border-radius"
+			],
+			[
 				"ng",
 				"ngfactory	angular_factory"
 			]
@@ -15,7 +23,7 @@
 			"file": "gulpfile.js",
 			"settings":
 			{
-				"buffer_size": 2818,
+				"buffer_size": 2872,
 				"line_ending": "Windows"
 			}
 		},
@@ -23,7 +31,7 @@
 			"file": "src/style/app.scss",
 			"settings":
 			{
-				"buffer_size": 33,
+				"buffer_size": 70,
 				"line_ending": "Windows"
 			}
 		},
@@ -31,7 +39,7 @@
 			"file": "src/style/components/page.scss",
 			"settings":
 			{
-				"buffer_size": 510,
+				"buffer_size": 2372,
 				"line_ending": "Windows"
 			}
 		},
@@ -39,7 +47,7 @@
 			"file": "src/js/app.js",
 			"settings":
 			{
-				"buffer_size": 88,
+				"buffer_size": 107,
 				"line_ending": "Windows"
 			}
 		},
@@ -47,7 +55,7 @@
 			"file": "src/index.html",
 			"settings":
 			{
-				"buffer_size": 833,
+				"buffer_size": 913,
 				"line_ending": "Windows"
 			}
 		},
@@ -55,7 +63,7 @@
 			"file": "src/js/controllers/todoController.js",
 			"settings":
 			{
-				"buffer_size": 436,
+				"buffer_size": 463,
 				"line_ending": "Windows"
 			}
 		},
@@ -63,7 +71,55 @@
 			"file": "src/js/services/dataService.js",
 			"settings":
 			{
-				"buffer_size": 376,
+				"buffer_size": 851,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/description.html",
+			"settings":
+			{
+				"buffer_size": 120,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/list.html",
+			"settings":
+			{
+				"buffer_size": 459,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/js/router/appRouter.js",
+			"settings":
+			{
+				"buffer_size": 516,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/js/controllers/listController.js",
+			"settings":
+			{
+				"buffer_size": 522,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/js/controllers/descriptionController.js",
+			"settings":
+			{
+				"buffer_size": 499,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/style/components/common.scss",
+			"settings":
+			{
+				"buffer_size": 122,
 				"line_ending": "Windows"
 			}
 		}
@@ -76,7 +132,7 @@
 		[
 			[
 				"Snippet: ",
-				"Snippet: angular_module"
+				"Snippet: angular_directive"
 			]
 		],
 		"width": 472.0
@@ -126,6 +182,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"%;*/\n",
 			"ctrl+l",
 			"super"
 		],
@@ -145,7 +202,7 @@
 	"groups":
 	[
 		{
-			"selected": 4,
+			"selected": 6,
 			"sheets":
 			[
 				{
@@ -153,15 +210,15 @@
 					"file": "gulpfile.js",
 					"settings":
 					{
-						"buffer_size": 2818,
+						"buffer_size": 2872,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								724,
-								724
+								351,
+								351
 							]
 						],
 						"settings":
@@ -181,15 +238,15 @@
 					"file": "src/style/app.scss",
 					"settings":
 					{
-						"buffer_size": 33,
+						"buffer_size": 70,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								33,
-								33
+								35,
+								35
 							]
 						],
 						"settings":
@@ -207,23 +264,24 @@
 					"file": "src/style/components/page.scss",
 					"settings":
 					{
-						"buffer_size": 510,
+						"buffer_size": 2372,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								510,
-								510
+								2319,
+								2319
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/MarioRicalde-SCSS.tmbundle-58d60a4/SCSS.tmLanguage"
+							"syntax": "Packages/MarioRicalde-SCSS.tmbundle-58d60a4/SCSS.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 513.0,
+						"translation.y": 2568.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -233,15 +291,15 @@
 					"file": "src/js/app.js",
 					"settings":
 					{
-						"buffer_size": 88,
+						"buffer_size": 107,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								88,
-								88
+								107,
+								107
 							]
 						],
 						"settings":
@@ -259,23 +317,24 @@
 					"file": "src/index.html",
 					"settings":
 					{
-						"buffer_size": 833,
+						"buffer_size": 913,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								632,
-								632
+								699,
+								699
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/AngularJS/AngularJS.tmLanguage"
+							"syntax": "Packages/AngularJS/AngularJS.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 60.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -285,20 +344,22 @@
 					"file": "src/js/controllers/todoController.js",
 					"settings":
 					{
-						"buffer_size": 436,
+						"buffer_size": 463,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								299,
-								299
+								289,
+								289
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -311,20 +372,187 @@
 					"file": "src/js/services/dataService.js",
 					"settings":
 					{
-						"buffer_size": 376,
+						"buffer_size": 851,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								266,
-								266
+								729,
+								729
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 114.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "src/description.html",
+					"settings":
+					{
+						"buffer_size": 120,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								120,
+								120
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/AngularJS/AngularJS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "src/list.html",
+					"settings":
+					{
+						"buffer_size": 459,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								413,
+								413
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/AngularJS/AngularJS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "src/js/router/appRouter.js",
+					"settings":
+					{
+						"buffer_size": 516,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								242,
+								242
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "src/js/controllers/listController.js",
+					"settings":
+					{
+						"buffer_size": 522,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								358,
+								358
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "src/js/controllers/descriptionController.js",
+					"settings":
+					{
+						"buffer_size": 499,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								475,
+								475
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "src/style/components/common.scss",
+					"settings":
+					{
+						"buffer_size": 122,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								120,
+								120
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/MarioRicalde-SCSS.tmbundle-58d60a4/SCSS.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,

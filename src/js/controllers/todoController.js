@@ -9,20 +9,17 @@
 
     /* @ngInject */
     function todoController(dataService) {
-
     	var vm = this;
 
-    	vm.todosList = dataService.getList();
-
-        vm.title = 'Controller';
-
-        activate();
+        vm.newTodo = function() {
+            dataService.addItem();
+        };
 
         ////////////////
 
-        function activate() {	
+        function activate() {
+            //vm.newTodo = dataService.addItem;
         }
-
 
     }
 })();

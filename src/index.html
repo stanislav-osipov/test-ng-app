@@ -5,26 +5,24 @@
 	<meta encoding="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
 	<link rel="stylesheet" href="style/app.css">
+	<style>[ng-cloak] { display: none; }</style>
 </head>
 <body>
-	<div class="page" ng-controller="todoController as todos"> 
+	<div class="page" ng-controller="todoController as main"> 
 		<div class="page__header">
 			<div class="header">
-
+				<div class="header__text"> <i> My todo app </i> </div>
+				<div class="header__add-button">
+					<div class="add-button" ng-click="main.newTodo()">
+						+
+					</div>
+				</div>
 			</div>
 		</div>
 
 		<div class="page__content">
-			<div class="content">
-
-				<div class="content__list">
-					<div class="list">
-						<div class="list__item" ng-repeat="todo in todos.todosList" >
-							{{todo.id}}
-						</div>
-					</div>
-				</div>
-
+			<div class="content" ng-cloak>
+				<div ng-view> </div>
 			</div>
 		</div>
 
