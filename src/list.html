@@ -1,14 +1,30 @@
-<div class="content__list">
-	<div class="list">
-		<div class="list__item" ng-repeat="todo in todos.todosList">
-			<input type="checkbox" class="item__checkbox" value="todo.checked"/>
-			<div class="item__text">
-				{{todo.title}}
-			</div>
-			<div class="item__buttons">
-				<a href="#/{{todo.id}}" class="item__button item__button--link"> ... </a>
-				<div class="item__button" ng-click="todos.deleteTodo(todo.id)"> x </div>
+<div class="page__header">
+	<div class="header">
+		<div class="header__text"> <i> My todo app </i> </div>
+		<div class="header__button">
+			<div class="button" ng-click="todos.newTodo()">
+				+
 			</div>
 		</div>
 	</div>
 </div>
+
+<div class="page__content">
+	<div class="content">
+		<div class="content__list">
+			<div class="list">
+				<div class="list__item" ng-repeat="todo in todos.todosList">
+					<input type="checkbox" class="item__checkbox" ng-model="todo.checked"/>
+					<div class="item__text">
+						{{todo.title}}
+					</div>
+					<div class="item__buttons">
+						<a href="#/{{todo.id}}" class="item__button item__button--link"> ... </a>
+						<div class="item__button" ng-click="todos.deleteTodo(todo.id)"> x </div>
+					</div>
+				</div>
+			</div>
+		</div>		
+	</div>
+</div>
+

@@ -9,12 +9,7 @@
 	}
 
 	&__content {
-		height: 80%;
-		min-height: 50px;
-	}
-
-	&__footer {
-		height: 10%;
+		height: 90%;
 	}
 }
 
@@ -38,14 +33,15 @@
 		vertical-align: middle;		
 	}
 
-	&__add-button {
+	&__button {
 		display: table-cell;
 		vertical-align: middle;
 	}
 
 }
 
-.add-button {
+
+.button {
 	margin: 0 0 0 auto;
 	background-color: #777;
 	border-style: solid;
@@ -63,6 +59,32 @@
 		border-color: #333;
 		color: #333;	
 	}
+
+	&--back-ref {
+		display: block;
+		text-decoration: none;
+
+		&:link {
+			color: #FFF;
+		}
+
+		&:visited {
+			color: #FFF;
+		}
+	}
+
+	&__label {
+		border: 7px solid transparent;	
+		border-right: 15px solid #FFF;
+		position: relative;
+		right: 9px;
+		bottom: -7px;
+	}
+
+	&--save {
+		margin: 0;
+		width: 100px;
+	}
 }
 
 .content {
@@ -73,15 +95,6 @@
 		height: 100%;
 		padding: 2% 5%;
 	}
-}
-
-.footer {
-	background-color: #333;
-	height: 100%;
-	box-sizing: border-box;
-	border-style: solid;
-	border-color: #111;
-	border-width: 4px 0 0 0;
 }
 
 .list {
@@ -104,6 +117,19 @@
 		}
 	}
 
+	&__description {
+		color: #FFF;
+		height: 100%;
+		border-color: #666;
+		border-width: 1px;
+		border-radius: 10px;
+		margin-bottom: 15px;
+		box-shadow: 0 0 10px rgba(0,0,0,0.5);
+		background-color: #888;
+		border-style: solid;
+	}
+
+
 }
 
 .item {
@@ -111,18 +137,15 @@
 	
 	&__text {
 		display: inline-block;
-		/*width: 60%;*/
 	}
 
 	&__checkbox {
-		width: 5%;
 		margin: 0 15px;
 		display: inline-block;
 		transform: scale(2);
 	}
 
 	&__buttons {
-		/*width: 25%;*/
 		display: inline-block;
 		text-align: right;
 		float: right;
@@ -163,5 +186,51 @@
 			}
 		}
 
+	}
+
+	&__form {
+		width: 95%;
+		height: 100%;
+		margin: 0 5%;
+	}
+
+}
+
+.form {
+
+	&__title {
+		display: block;
+		box-sizing: border-box;
+		width: 95%;
+		margin: 10px 0;
+		height:  30px;
+		font: inherit;
+		padding: 0 20px;
+		background-color: #888;
+		color: #FFF;
+		outline: none;
+		border: none;
+		text-align: center;
+	}
+
+	&__description {
+		display: block;
+		box-sizing: border-box;
+		width: 95%;
+		height: 250px;
+		resize: none;
+		font: inherit;
+		background-color: #888;
+		color: #FFF;
+		outline: none;
+		border: none;
+	}
+
+	&__line {
+		margin: 0;
+		padding: 0;
+		width: 95%;
+		margin-bottom: 10px;
+		box-sizing: border-box;
 	}
 }

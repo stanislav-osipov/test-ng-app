@@ -16,6 +16,10 @@
             dataService.deleteItem(id);
         };
 
+        vm.newTodo = function() {
+            dataService.addItem();
+        };
+
         activate();
 
         ////////////////

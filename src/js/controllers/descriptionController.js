@@ -11,13 +11,25 @@
     function descriptionController(dataService, $routeParams) {
     	var vm = this;
     	vm.id = $routeParams.id;
+        vm.title = ''; 
+        vm.text = '';
+
+        vm.back = function() {
+            window.location.href = "#/";
+        }
+
+        vm.save = function(id, title, text) {
+            dataService.updateItem(id, title, text);
+            window.location.href = "#/";
+        }
 
         activate();
 
         ////////////////
 
         function activate() {
-            /*vm.todosList = dataService.getList(); */
+            vm.title = dataService.getItem(vm.id).title; 
+            vm.text = dataService.getItem(vm.id).text; 
         }
 
 

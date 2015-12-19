@@ -1,7 +1,31 @@
-<div class="content__list">
-	<div class="list">
-		<div class="list__item">
-			{{description.id}}
+<div class="page__header">
+	<div class="header">
+		<div class="header__text"> 
+			<div class="button button--save" ng-click="description.save(description.id, description.title, description.text)">
+				Save
+			</div>
 		</div>
+		<div class="header__button">
+			<a class="button button--back-ref" href="#/">
+				<div class="button__label">
+				</div>
+			</a>
+		</div>
+	</div>
+</div>
+
+<div class="page__content">
+	<div class="content">
+		<div class="content__list">
+			<div class="list">
+				<div class="list__description">
+					<form class="item__form">
+						<input type="text" class="form__title" ng-model="description.title"/>
+						<hr class="form__line"/>
+						<textarea class="form__description" ng-model="description.text"> </textarea>
+					</form>
+				</div>
+			</div>
+		</div>		
 	</div>
 </div>
