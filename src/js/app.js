@@ -3,6 +3,7 @@
 
     angular
         .module('todo', [
-        	'ngRoute'
+        	'ngRoute',
+        	'ngAnimate'
         ]);
 })();
