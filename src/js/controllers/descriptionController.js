@@ -5,22 +5,22 @@
         .module('todo')
         .controller('descriptionController', descriptionController);
 
-    descriptionController.$inject = ['dataService', '$routeParams'];
+    descriptionController.$inject = ['dataService', '$state'];
 
     /* @ngInject */
-    function descriptionController(dataService, $routeParams) {
+    function descriptionController(dataService, $state) {
     	var vm = this;
-    	vm.id = $routeParams.id;
+    	vm.id = 0;
         vm.title = ''; 
         vm.text = '';
 
         vm.back = function() {
-            window.location.href = "#/";
+            $state.go('list');
         }
 
         vm.save = function(id, title, text) {
             dataService.updateItem(id, title, text);
-            window.location.href = "#/";
+            $state.go('list');
         }
 
         activate();
@@ -28,8 +28,9 @@
         ////////////////
 
         function activate() {
+            vm.id = $state.params.id; 
             vm.title = dataService.getItem(vm.id).title; 
-            vm.text = dataService.getItem(vm.id).text; 
+            vm.text = dataService.getItem(vm.id).text;
         }
 
 

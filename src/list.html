@@ -19,7 +19,7 @@
 						{{todo.title}}
 					</div>
 					<div class="item__buttons">
-						<a href="#/{{todo.id}}" class="item__button item__button--link"> ... </a>
+						<a ui-sref="edit({id: todo.id})" class="item__button item__button--link"> ... </a>
 						<div class="item__button" ng-click="todos.deleteTodo(todo.id)"> x </div>
 					</div>
 				</div>

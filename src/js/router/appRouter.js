@@ -5,21 +5,25 @@
         .module('todo')
         .config(appRouter);
 
-    appRouter.$inject = ['$routeProvider'];
+    appRouter.$inject = ['$stateProvider', '$urlRouterProvider'];
 
     /* @ngInject */
-    function appRouter($routeProvider) {
-    	$routeProvider
-    		.when('/', {
-    			templateUrl: 'list.html',
-    			controller: 'listController',
-    			controllerAs: 'todos' 
-    		})
+    function appRouter($stateProvider, $urlRouterProvider) {
 
-    		.when('/:id', {
-    			templateUrl: 'description.html',
-    			controller: 'descriptionController',
-    			controllerAs: 'description' 
-    		});
+        $urlRouterProvider.otherwise("/list");
+
+    	$stateProvider
+            .state('list', {
+                url: "/list",
+                templateUrl: 'list.html',
+                controller: 'listController',
+                controllerAs: 'todos'
+            })
+            .state('edit', {
+                url: "/edit/:id",
+                templateUrl: 'description.html',
+                controller: 'descriptionController',
+                controllerAs: 'description'
+            });
     }
 })();

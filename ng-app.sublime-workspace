@@ -23,7 +23,7 @@
 			"file": "gulpfile.js",
 			"settings":
 			{
-				"buffer_size": 2872,
+				"buffer_size": 2933,
 				"line_ending": "Windows"
 			}
 		},
@@ -31,7 +31,7 @@
 			"file": "src/style/app.scss",
 			"settings":
 			{
-				"buffer_size": 70,
+				"buffer_size": 109,
 				"line_ending": "Windows"
 			}
 		},
@@ -47,7 +47,7 @@
 			"file": "src/js/app.js",
 			"settings":
 			{
-				"buffer_size": 107,
+				"buffer_size": 129,
 				"line_ending": "Windows"
 			}
 		},
@@ -87,7 +87,7 @@
 			"file": "src/list.html",
 			"settings":
 			{
-				"buffer_size": 789,
+				"buffer_size": 799,
 				"line_ending": "Windows"
 			}
 		},
@@ -120,6 +120,14 @@
 			"settings":
 			{
 				"buffer_size": 122,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/style/components/animation.scss",
+			"settings":
+			{
+				"buffer_size": 386,
 				"line_ending": "Windows"
 			}
 		}
@@ -182,7 +190,6 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			"add-button",
 			"%;*/\n",
 			"ctrl+l",
 			"super"
@@ -193,7 +200,6 @@
 		"regex": false,
 		"replace_history":
 		[
-			"add-button"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -212,15 +218,15 @@
 					"file": "gulpfile.js",
 					"settings":
 					{
-						"buffer_size": 2872,
+						"buffer_size": 2933,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								351,
-								351
+								688,
+								688
 							]
 						],
 						"settings":
@@ -230,7 +236,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1575.0,
+						"translation.y": 57.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -240,15 +246,15 @@
 					"file": "src/style/app.scss",
 					"settings":
 					{
-						"buffer_size": 70,
+						"buffer_size": 109,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								35,
-								35
+								103,
+								103
 							]
 						],
 						"settings":
@@ -273,8 +279,8 @@
 						"selection":
 						[
 							[
-								1154,
-								1154
+								1801,
+								1764
 							]
 						],
 						"settings":
@@ -283,7 +289,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 869.0,
+						"translation.y": 2055.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -293,15 +299,15 @@
 					"file": "src/js/app.js",
 					"settings":
 					{
-						"buffer_size": 107,
+						"buffer_size": 129,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								107,
-								107
+								129,
+								129
 							]
 						],
 						"settings":
@@ -326,8 +332,8 @@
 						"selection":
 						[
 							[
-								403,
-								403
+								0,
+								0
 							]
 						],
 						"settings":
@@ -336,7 +342,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 60.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -353,8 +359,8 @@
 						"selection":
 						[
 							[
-								335,
-								258
+								289,
+								289
 							]
 						],
 						"settings":
@@ -381,8 +387,8 @@
 						"selection":
 						[
 							[
-								1406,
-								1406
+								579,
+								579
 							]
 						],
 						"settings":
@@ -392,7 +398,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 270.0,
+						"translation.y": 228.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -409,8 +415,8 @@
 						"selection":
 						[
 							[
-								196,
-								196
+								0,
+								0
 							]
 						],
 						"settings":
@@ -429,15 +435,15 @@
 					"file": "src/list.html",
 					"settings":
 					{
-						"buffer_size": 789,
+						"buffer_size": 799,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								152,
-								152
+								368,
+								368
 							]
 						],
 						"settings":
@@ -463,8 +469,8 @@
 						"selection":
 						[
 							[
-								242,
-								242
+								142,
+								142
 							]
 						],
 						"settings":
@@ -491,8 +497,8 @@
 						"selection":
 						[
 							[
-								379,
-								379
+								0,
+								0
 							]
 						],
 						"settings":
@@ -519,8 +525,8 @@
 						"selection":
 						[
 							[
-								366,
-								366
+								0,
+								0
 							]
 						],
 						"settings":
@@ -555,6 +561,32 @@
 						{
 							"syntax": "Packages/MarioRicalde-SCSS.tmbundle-58d60a4/SCSS.tmLanguage",
 							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "src/style/components/animation.scss",
+					"settings":
+					{
+						"buffer_size": 386,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								194,
+								194
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/MarioRicalde-SCSS.tmbundle-58d60a4/SCSS.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
